@@ -209,7 +209,6 @@ public class ApiController {
 
 
     //Carcontrollers
-
     @GetMapping("/cars")
     public ResponseEntity<List<Car>> getAllCars() {
         List<Car> cars = carService.getAllCars();
